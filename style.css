@@ -1,0 +1,45 @@
+body {
+    background: #0f172a;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.form-box {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #334155;
+    background: #020617;
+    color: white;
+}
+
+input.error-border {
+    border-color: red;
+}
+
+small {
+    color: red;
+}
+
+.success {
+    color: lightgreen;
+    text-align: center;
+}
